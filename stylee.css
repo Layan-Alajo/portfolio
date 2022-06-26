@@ -1,0 +1,158 @@
+:root
+{
+    --primaryColor:#008A62;
+    --secoundaryColor: #2AC195;
+    --threeColor:#F4D03F ;
+    --lightColor:white;
+    --darkColor:black;
+    --padding:8%;
+}
+html
+{
+    font-family: 'Allan', cursive;
+    font-size: 16px;
+    color:var(--darkColor);
+  
+
+}
+body{
+    /*background-image: linear-gradient(to left, #FF99AC ,#FF6A88, #FDFFA9);*/
+    background-image: linear-gradient(45deg, #F4D03F , #16A085 , #FDFFA9) ;
+  
+
+}
+
+.home
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+#sec1
+{
+    height: 550px;
+    margin-right: 20px;
+    border-radius: 30px;
+    background-color:var(--lightColor);
+    border: 1px solid var(--primaryColor);
+}
+#sec1 .card
+{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    
+    
+}
+
+
+
+.container h4
+{
+    font-family:'Allan', cursive ;
+    font-size: 2rem;
+    color: var(--darkColor);
+  
+}
+#DownCV
+{
+    background-color: var(--primaryColor);
+    color: var(--lightColor);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 2rem;
+   
+}
+#DownCV:hover
+{
+   background-color: transparent;
+   color: var(--darkColor);
+   border: 2px solid var(--threeColor);
+}
+#sec2
+{
+    height: 550px;
+    margin-left: 20px;
+    border-radius: 30px;
+    background-color:var(--lightColor);
+    border: 1px solid var(--primaryColor);
+    
+}
+.container-icon1 , .container-icon2 , .container-icon3 
+{   
+    padding: 3rem var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.container-icon1 #icon , .container-icon2 #icon ,.container-icon3 #icon 
+{
+    
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  
+    
+}
+
+i
+{
+   color:var(--primaryColor);
+}
+
+footer
+{
+    padding: 2rem var(--padding);
+    
+}
+
+footer .content-footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+footer .content-footer .end
+{
+    color: var(--primaryColor);
+    margin-top: 1rem;
+
+}
+
+footer .content-footer .end i
+{
+    color:var(--primaryColor);
+}
+
+span
+{
+    color: var(--threeColor);
+}
+
+
+

@@ -1,0 +1,116 @@
+:root
+{
+    --primaryColor:#008A62;
+    --secoundaryColor: #2AC195;
+    --threeColor:#F4D03F ;
+    --lightColor:white;
+    --darkColor:black;
+    --padding:8%;
+}
+html
+{
+    font-family: 'Allan', cursive;
+    font-size: 16px;
+    color:var(--darkColor);
+  
+
+}
+body{
+    /*background-image: linear-gradient(to left, #FF99AC ,#FF6A88, #FDFFA9);*/
+    background-image: linear-gradient(45deg, #F4D03F , #16A085 , #FDFFA9) ;
+  
+
+}
+
+.services
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#sec
+{
+    height: 200px;
+    padding: auto;
+    margin: auto;
+    border-radius: 30px;
+    background-color:transparent;
+    border: 1px solid var(--primaryColor);
+}
+#sec h1
+{
+    font-family: 'Allan', cursive;
+    color: var(--primaryColor);
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 10px;
+    marker: var(--threeColor);
+    
+    
+}
+
+.box
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+    background-color: transparent;
+}
+
+.box .card
+{
+    width: 300px;
+    background-color: var(--threeColor);
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    text-align: center;
+    margin: 3rem;
+}
+
+
+.card i
+{
+    font-size: 3.12rem;
+    text-align: center;
+    color: var(--primaryColor);
+    margin: 2rem;
+}
+
+.card h5
+{
+    font-family: 'Alegreya Sans', sans-serif;
+    color:var(--darkColor);
+}
+footer
+{
+    padding: 2rem var(--padding);
+    
+}
+
+footer .content-footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+footer .content-footer .end
+{
+    color: var(--primaryColor);
+    margin-top: 1rem;
+
+}
+
+footer .content-footer .end i
+{
+    color:var(--primaryColor);
+}
+
+span
+{
+    color: var(--threeColor);
+}

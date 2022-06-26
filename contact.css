@@ -1,0 +1,249 @@
+:root
+{
+    --primaryColor:#008A62;
+    --secoundaryColor: #2AC195;
+    --threeColor:#F4D03F ;
+    --lightColor:white;
+    --darkColor:black;
+    --padding:8%;
+}
+html
+{
+    font-family: 'Allan', cursive;
+    font-size: 16px;
+    color:var(--darkColor);
+  
+
+}
+body{
+    /*background-image: linear-gradient(to left, #FF99AC ,#FF6A88, #FDFFA9);*/
+    background-image: linear-gradient(45deg, #F4D03F , #16A085 , #FDFFA9) ;
+  
+
+}
+
+.contact
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.container
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+
+#sec1
+{
+    height: 550px;
+    margin-right: 20px;
+    border-radius: 30px;
+    background-color:transparent;
+    border: none;
+}
+
+.container .card
+{
+    width: 300px;
+    height: 200px;
+    background-color: var(--threeColor);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+   
+}
+i
+{
+    font-size: 2.5rem;
+    color: var(--primaryColor); 
+}
+
+.card h4
+{
+    font-family:'Alegreya Sans', sans-serif;
+    font-size: 2rem;
+    color:var(--darkColor);
+}
+.card h6
+{
+    font-family: 'Allan', cursive;
+    font-size: 1.5rem;
+    color: var(--primaryColor);
+
+}
+
+#sec2
+{
+    height: 550px;
+    margin-left: 60px;
+    border-radius: 30px;
+    background-color:transparent;
+    border: none;
+   
+}
+
+#title-Tag-Line {
+    font-size: 20px;
+  }
+ 
+  
+  /* form animation starts */
+  .form {
+    height: 600px;
+    background: #fff;
+    box-shadow: 0 30px 60px 0 #16A085;
+    border-radius: 5px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    border-top: 5px solid #0e3721;
+  /*   z-index: 1; */
+    animation: bounce 1.5s infinite;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+  }
+
+  
+  .title{
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto 5px;
+    width: 300px;
+  }
+  .termsConditions{
+    margin: 0 auto 5px 80px;
+  }
+  
+  .pageTitle{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#F4D03F;
+    text-align: center;
+    letter-spacing: .5px;
+  }
+  .secondaryTitle{
+    color: grey;
+    text-align: center;
+    font-family: 'Allan', cursive;
+  }
+  
+  .name {
+    background-color: #ebebeb;
+    color: white;
+  }
+  .name:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .email {
+    background-color: #ebebeb;
+    height: 2em;
+  }
+  
+  .email:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .message {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 10rem;
+  }
+  
+  .message:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 12em;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .submit {
+    width: 200px;
+    color: white;
+    background-color:#16A085;
+    font-size: 20px;
+  }
+  
+  .submit:hover {
+ 
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid #0e3721;
+    border-radius: 0%;
+  }
+  
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
+
+  footer
+  {
+      padding: 2rem var(--padding);
+      
+  }
+  
+  footer .content-footer
+  {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+  }
+  footer .content-footer .end
+  {
+      color: var(--primaryColor);
+      margin-top: 1rem;
+  
+  }
+  
+  footer .content-footer .end i
+  {
+      color:var(--primaryColor);
+      font-size: 16px;
+  }
+  
+  span
+  {
+      color: var(--threeColor);
+  }
+
+
